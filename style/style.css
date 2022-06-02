@@ -1,0 +1,1135 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.heder {
+  background-image: url(../img/Background.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.heder .heder_in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.heder .heder_in .heder_top {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heder .heder_in .heder_top .menu_list .menu_link_dream {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.heder .heder_in .heder_top .menu .menu_log {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heder .heder_in .heder_top .menu .menu_log .menu_log_up {
+  width: 90px;
+  height: 36px;
+  border: 2px solid #ffffff;
+  border-radius: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heder .heder_in .heder_top .menu .menu_log .menu_link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 0 10px;
+}
+
+.heder_title_wrap {
+  margin: 0 auto;
+}
+
+.heder_title {
+  margin-top: 147px;
+  text-align: center;
+  max-width: 470px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  color: #ffffff;
+}
+
+.heder_content {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #f7f3f2;
+  padding-bottom: 50px;
+}
+
+.heder_btn_wraper {
+  margin: 0 auto;
+  padding-bottom: 270px;
+}
+
+.heder_btn {
+  text-align: center;
+  padding: 12px 19px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #ff4e50;
+  border-radius: 40px;
+  width: 225px;
+  height: 40px;
+}
+
+.hov .hov_in .hov_in_title {
+  margin-top: 107px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #444444;
+}
+
+.hov .hov_in .hov_in_foto {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto_conteiner {
+  width: 83%;
+  margin: 0 auto;
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto1 {
+  background-image: url(../img/Step_1.jpg);
+  width: 33.3%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto1 .step1 {
+  margin-top: 224px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+  padding: 5px 14px 3px 14px;
+  background: #ff4e50;
+  border-radius: 40px;
+  width: 70px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 690px) {
+  .hov .hov_in .hov_in_foto .hov_in_foto1 .step1 {
+    margin-top: 135px;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto1 .sed {
+  margin-top: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .hov .hov_in .hov_in_foto .hov_in_foto1 .sed {
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 690px) {
+  .hov .hov_in .hov_in_foto .hov_in_foto1 .sed {
+    margin-top: 55px;
+    line-height: 29px;
+    font-size: 30px;
+  }
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto1 .text1 {
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  color: #e3e3e3;
+}
+
+@media (max-width: 690px) {
+  .hov .hov_in .hov_in_foto .hov_in_foto1 .text1 {
+    font-size: 19px;
+    line-height: 17px;
+    margin-top: 50px;
+  }
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto2 {
+  background-image: url(../img/Step_2.jpg);
+  width: 33.3%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto2 .step2 {
+  margin-top: 255px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+  padding: 5px 14px 3px 14px;
+  background: #ff4e50;
+  border-radius: 40px;
+  width: 70px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 690px) {
+  .hov .hov_in .hov_in_foto .hov_in_foto2 .step2 {
+    margin-top: 135px;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto2 .morbi {
+  margin-top: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .hov .hov_in .hov_in_foto .hov_in_foto2 .morbi {
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 690px) {
+  .hov .hov_in .hov_in_foto .hov_in_foto2 .morbi {
+    margin-top: 55px;
+    line-height: 29px;
+    font-size: 30px;
+  }
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto2 .text2 {
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  color: #e3e3e3;
+}
+
+@media (max-width: 690px) {
+  .hov .hov_in .hov_in_foto .hov_in_foto2 .text2 {
+    font-size: 19px;
+    line-height: 17px;
+    margin-top: 50px;
+  }
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto3 {
+  background-image: url(../img/Step_3.jpg);
+  width: 33.3%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto3 .step3 {
+  margin-top: 224px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+  padding: 5px 14px 3px 14px;
+  background: #ff4e50;
+  border-radius: 40px;
+  width: 70px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 690px) {
+  .hov .hov_in .hov_in_foto .hov_in_foto3 .step3 {
+    margin-top: 135px;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto3 .sed {
+  margin-top: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .hov .hov_in .hov_in_foto .hov_in_foto3 .sed {
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 690px) {
+  .hov .hov_in .hov_in_foto .hov_in_foto3 .sed {
+    margin-top: 55px;
+    line-height: 29px;
+    font-size: 30px;
+  }
+}
+
+.hov .hov_in .hov_in_foto .hov_in_foto3 .text3 {
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  color: #e3e3e3;
+}
+
+@media (max-width: 690px) {
+  .hov .hov_in .hov_in_foto .hov_in_foto3 .text3 {
+    font-size: 19px;
+    line-height: 17px;
+    margin-top: 50px;
+  }
+}
+
+.meet .meet_in .meet_in_title {
+  margin-top: 89px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #444444;
+}
+
+.meet .meet_in .meet_in_foto {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.meet .meet_in .meet_in_foto .meet_in_foto1,
+.meet .meet_in .meet_in_foto .meet_in_foto2,
+.meet .meet_in .meet_in_foto .meet_in_foto3,
+.meet .meet_in .meet_in_foto .meet_in_foto4 {
+  width: 24%;
+  height: 235px;
+}
+
+.meet .meet_in .meet_in_foto .meet_foto {
+  width: 55%;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.meet .meet_in .meet_in_foto .meet_foto_name {
+  text-align: center;
+  margin-top: 17px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+}
+
+.meet .meet_in .meet_in_foto .meet_text {
+  text-align: center;
+  margin-top: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  color: #666666;
+}
+
+.meet .btn_see_other_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 48px;
+}
+
+.meet .btn_see_other_wrapper .btn_see_other {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ff4e50;
+  width: 180;
+  height: 40px;
+  border: 2px solid #ff4e50;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 19px;
+}
+
+.discover .discover_in .discover_title {
+  margin-top: 89px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #444444;
+}
+
+.discover .discover_in .discover_foto .discover_in_foto1 {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.discover .discover_in .discover_foto .discover_in_foto1 .foto1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33.3%;
+  height: 310px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 10px;
+  background-image: url(../img/foto1.jpg);
+}
+
+.discover .discover_in .discover_foto .discover_in_foto1 .foto2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33.3%;
+  height: 310px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 10px;
+  background-image: url(../img/foto2.jpg);
+}
+
+.discover .discover_in .discover_foto .discover_in_foto1 .foto3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33.3%;
+  height: 310px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 10px;
+  background-image: url(../img/foto3.jpg);
+}
+
+.discover .discover_in .discover_foto .discover_in_foto2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.discover .discover_in .discover_foto .discover_in_foto2 .foto1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33.3%;
+  height: 310px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 10px;
+  background-image: url(../img/foto4.jpg);
+}
+
+.discover .discover_in .discover_foto .discover_in_foto2 .foto2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 69%;
+  height: 310px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 10px;
+  background-image: url(../img/foto5.jpg);
+}
+
+.discover .discover_in .discover_foto .discover_in_foto3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.discover .discover_in .discover_foto .discover_in_foto3 .foto1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 69%;
+  height: 310px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 10px;
+  background-image: url(../img/foto6.jpg);
+}
+
+.discover .discover_in .discover_foto .discover_in_foto3 .foto2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33.3%;
+  height: 310px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 10px;
+  background-image: url(../img/foto7.jpg);
+}
+
+.discover .discover_in .discover_foto .foto_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.create .create_in .create_title {
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #444444;
+}
+
+.create .create_in .hi {
+  margin-top: 43px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 14px;
+  text-align: center;
+  color: #666666;
+}
+
+.create .create_in .form_vrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+}
+
+.create .create_in .form_vrap .search_partner_wrap .search_partner {
+  width: 299px;
+  height: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #999999;
+  border: 1px solid #d4d4d4;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+  border-radius: 3px;
+}
+
+.create .create_in .form_vrap .btn_search_wraper .btn_search {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  width: 172px;
+  height: 40px;
+  border-radius: 40px;
+  background: #ff4e50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+}
+
+.foot .line {
+  width: 100%;
+  height: 2px;
+  background: #ff4e50;
+  margin-top: 50px;
+}
+
+.foot .foot_in {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.foot .foot_in .dream {
+  width: 22%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ff4e50;
+}
+
+.foot .foot_in .company {
+  width: 22%;
+}
+
+.foot .foot_in .company .company_in_top {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+  margin-bottom: 15px;
+  text-align: start;
+}
+
+.foot .foot_in .company .company_in {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #999999;
+}
+
+.foot .foot_in .partner {
+  width: 22%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+  margin-bottom: 15px;
+}
+
+.foot .foot_in .logo {
+  width: 35%;
+}
+
+.foot .foot_in .logo .logo_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.foot .foot_in .logo .logo_img {
+  margin-top: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+@media (max-width: 800px) {
+  .conteiner {
+    max-width: 770px;
+  }
+  .conteiner .meet_in_foto {
+    margin: 0 auto;
+    max-width: 498px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .conteiner .meet_in_foto .meet_in_foto1,
+  .conteiner .meet_in_foto .meet_in_foto2,
+  .conteiner .meet_in_foto .meet_in_foto3,
+  .conteiner .meet_in_foto .meet_in_foto4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 48%;
+            flex: 0 0 48%;
+  }
+  .conteiner .foot_in {
+    width: 90%;
+    margin: 38px auto;
+  }
+  .conteiner .foot_in .dream {
+    width: 20%;
+  }
+  .conteiner .foot_in .company {
+    width: 21%;
+    margin-left: 8%;
+  }
+  .conteiner .foot_in .partner {
+    width: 20%;
+  }
+}
+
+@media (max-width: 690px) {
+  .conteiner {
+    max-width: 520px;
+  }
+  .hov .hov_in .hov_in_foto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hov .hov_in .hov_in_foto .hov_in_foto1,
+  .hov .hov_in .hov_in_foto .hov_in_foto2,
+  .hov .hov_in .hov_in_foto .hov_in_foto3 {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .discover .discover_in .discover_foto .discover_in_foto1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .discover .discover_in .discover_foto .discover_in_foto1 .foto1,
+  .discover .discover_in .discover_foto .discover_in_foto1 .foto2 {
+    width: 46%;
+  }
+  .discover .discover_in .discover_foto .discover_in_foto1 .foto3 {
+    width: 100%;
+  }
+  .discover .discover_in .discover_foto .discover_in_foto2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .discover .discover_in .discover_foto .discover_in_foto2 .foto1,
+  .discover .discover_in .discover_foto .discover_in_foto2 .foto2 {
+    width: 46%;
+  }
+  .discover .discover_in .discover_foto .discover_in_foto3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .discover .discover_in .discover_foto .discover_in_foto3 .foto1,
+  .discover .discover_in .discover_foto .discover_in_foto3 .foto2 {
+    width: 46%;
+  }
+  .foot .foot_in {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+  }
+  .foot .foot_in .dream {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .foot .foot_in .company {
+    width: 200px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  .foot .foot_in .company .company_in_top {
+    width: 100%;
+    text-align: center;
+  }
+  .foot .foot_in .company .in_1 {
+    display: none;
+  }
+  .foot .foot_in .company .in_2,
+  .foot .foot_in .company .in_3,
+  .foot .foot_in .company .in_4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+    text-align: center;
+    margin-top: -10px;
+  }
+  .foot .foot_in .company .in_5 {
+    width: 100%;
+    text-align: center;
+  }
+  .foot .foot_in .company .in_6 {
+    display: none;
+  }
+  .foot .foot_in .partner {
+    text-align: center;
+    margin: 8px auto;
+  }
+  .foot .foot_in .logo {
+    width: 100px;
+    margin: 5px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .conteiner {
+    max-width: 400px;
+  }
+  .heder .heder_in {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .heder .heder_in .heder_top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .heder .heder_in .heder_top .menu_list {
+    margin-top: 60px;
+  }
+  .heder .heder_in .heder_title_wrap .heder_title {
+    font-size: 30px;
+    line-height: 37px;
+    width: 80%;
+    margin: 70px auto;
+  }
+  .heder .heder_in .heder_content {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: -35px;
+  }
+  .meet .meet_in .meet_in_foto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .meet .meet_in .meet_in_foto .meet_in_foto1,
+  .meet .meet_in .meet_in_foto .meet_in_foto2,
+  .meet .meet_in .meet_in_foto .meet_in_foto3,
+  .meet .meet_in .meet_in_foto .meet_in_foto4 {
+    width: 70%;
+    text-align: center;
+    margin: 16px auto;
+  }
+  .discover .discover_in .discover_foto .discover_in_foto1 .foto1,
+  .discover .discover_in .discover_foto .discover_in_foto1 .foto2 {
+    width: 100%;
+  }
+  .discover .discover_in .discover_foto .discover_in_foto2 .foto1,
+  .discover .discover_in .discover_foto .discover_in_foto2 .foto2 {
+    width: 100%;
+  }
+  .discover .discover_in .discover_foto .discover_in_foto3 .foto1,
+  .discover .discover_in .discover_foto .discover_in_foto3 .foto2 {
+    width: 100%;
+  }
+  .form_vrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .form_vrap .btn_search_wraper {
+    margin: 10px auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
